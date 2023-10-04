@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task5</title>
+    <style>
+      .container {
+        height: 500px;
+        width: 500px;
+        position: relative;
+      }
+      .box1 {
+        background: pink;
+        height: 400px;
+        width: 400px;
+        position: absolute;
+      }
+      .box2 {
+        background: blue;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1"><h1>Box with low z-index</h1></div>
+      <div class="box2"><h1>Box with high z-index</h1></div>
+    </div>
+  </body>
+</html>

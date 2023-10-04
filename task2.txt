@@ -1,0 +1,11 @@
+Relative Positioning:
+1.Relative positioning is based on the element's current position in the normal document flow. It allows you to adjust an element's position relative to its default position.
+2.When you use relative positioning, the element is moved relative to its original position, but it still occupies space in the document flow. Other elements on the page will be aware of its presence and may interact with it as if it were in its original location.
+3.To apply relative positioning, you can use CSS properties like position: relative; and then adjust the element's position using properties like top, right, bottom, or left.
+Relative positioning is often used for fine-tuning the layout of elements within a container or for creating responsive designs where elements adjust their positions based on screen size.
+
+Absolute Positioning:
+1.Absolute positioning, on the other hand, takes an element out of the normal document flow. The element is positioned relative to its nearest positioned ancestor or, if none exists, to the initial containing block, which is usually the viewport (the browser window).
+2.Elements with absolute positioning do not affect the layout of other elements on the page. They can overlap other elements, and other elements are not aware of their presence.
+3.Absolute positioning is often used when you want to precisely place an element at specific coordinates on the page or create overlays, pop-up menus, or tooltips.
+To apply absolute positioning, you can use CSS properties like position: absolute; along with properties like top, right, bottom, or left to specify the exact position
